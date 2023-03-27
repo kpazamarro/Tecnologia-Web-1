@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    /*align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+    align-items: last baseline;*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: black;
+}
+.box5{
+    background-color: coral;
+}.box6{
+    background-color: red;
+}

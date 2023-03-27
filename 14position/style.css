@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.padre{
+    background-color:blue;
+    border: 2px brown dotted;
+}
+.box{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+#uno{
+    background-color: aqua;
+}
+#dos{
+    background-color: aquamarine;
+}
+#tres{
+    background-color: coral;
+}
+#cuatro{
+    background-color: thistle;
+}

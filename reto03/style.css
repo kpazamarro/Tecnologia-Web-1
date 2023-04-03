@@ -6,35 +6,33 @@
 html{
     font-size: 62.5%;
 }
-header{
-    background-color:orangered;
+.header{
+    background-color: azure;
     height: 20rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: center;
     font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container{
-    background-color: aquamarine;
+    background-color: bisque;
     height: 45rem;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
 }
 .container__menu{
-    background-color: royalblue;
+    background-color: yellowgreen;
     width: 20%;
+    display: end;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     align-items: center;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-.container__contenido{
-    background-color: turquoise;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container--imagenfondo{
+    background-color: brown;
+    font-size: small;
 }
